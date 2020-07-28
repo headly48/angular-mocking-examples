@@ -1,0 +1,13 @@
+<p>
+    
+    component-using-component works!
+
+    <app-sample-component (cookieUpdated)="updateCookie($event)" [cookie]="cookie"></app-sample-component>
+
+
+
+    <app-sample-ng-content>
+        <ng-template #something><p>inside template</p></ng-template>
+        <p>inside content</p>
+    </app-sample-ng-content>
+</p>
